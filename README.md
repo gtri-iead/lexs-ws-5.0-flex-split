@@ -24,15 +24,14 @@ The application provides skeleton code for endpoints to handle a subset of the
 LEXS 5.0 messages. The following table shows the LEXS 5.0 requests accepted by 
 the application and the responses it returns.
 
-+--------------------------------------------------------------+
+
 | Request                       | Response                     |
-+--------------------------------------------------------------+
-| domainRequest			| domainResponse               |
+|-------------------------------|------------------------------|
+| domainRequest                 | domainResponse               |
 | doPublishAcknowledgedRequest	| doPublishAcknowledgedResponse|
 | doStructuredSearchRequest     | doSearchResponse             |
 | doTextSearchRequest           | doSearchResponse             |
 | RenewRequest                  | RenewResponse                |
-+--------------------------------------------------------------+
 
 The endpoints for the accepted requests will always return the same response. 
 The goal of this implementation is to provide an example of how to generate 
